@@ -4,12 +4,12 @@ import Arrow from "../assets/images/arrow-right.svg";
 const Hero = () => {
   return (
     <>
-      <div className="flex flex-col border-2 border-black items-start space-y-10 sm:px-16 px-4 py-10">
+      <div className="flex flex-col border-2 border-black items-start space-y-10 sm:px-16 px-4 py-10 flex-1">
         <p className="text-orange-400 w-full text-lg font-semibold tracking-widest">
           Our Summer collections
         </p>
         <h1 className="font-bold md:text-8xl text-5xl border-2 border-black leading-snug">
-          <span className="block">The New Arrival</span>{" "}
+          <span className="block">The New Arrival</span>
           <span className="text-orange-500">Nike</span> Shoes
         </h1>
         <p className="text-gray-500 text-xl max-w-sm">
@@ -35,7 +35,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      
     </>
   );
 };
