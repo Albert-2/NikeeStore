@@ -16,7 +16,7 @@ const Hero = () => {
           Discover stylish Nike arrivals, quality comfort, and innovation for
           your active life.
         </p>
-        <button className="bg-orange-500 p-3 text-white rounded-3xl px-7">
+        <button className="bg-orange-600 p-3 text-white rounded-3xl px-5 text-lg font-semibold">
           Shop now
           <img src={Arrow} alt="arraow" className="inline-block mx-4"></img>
         </button>
