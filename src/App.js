@@ -1,4 +1,5 @@
 import "./App.css";
+import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import PopulPrdct from "./components/PopulPrdct";
@@ -13,6 +14,7 @@ function App() {
       <Shoe />
       <PopulPrdct />
       <ShoeDetail />
+      <Features />
     </>
   );
 }
