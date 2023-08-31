@@ -6,17 +6,20 @@ const Features = () => {
     {
       icon: require("../assets/icons/delivery.png"),
       title: "Free Shipping",
-      content: "Enjoy seamless shopping with our complimentary shipping service.",
+      content:
+        "Enjoy seamless shopping with our complimentary shipping service.",
     },
     {
       icon: require("../assets/icons/credit-card.png"),
       title: "Secure Payment",
-      content: "Experience worry-free transactions with our secure payment options.",
+      content:
+        "Experience worry-free transactions with our secure payment options.",
     },
     {
       icon: require("../assets/icons/help.png"),
       title: "Love to help You",
-      content: "Our dedicated team is here to assist you every step of the way.",
+      content:
+        "Our dedicated team is here to assist you every step of the way.",
     },
   ];
   return (
