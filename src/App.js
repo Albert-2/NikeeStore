@@ -8,6 +8,7 @@ import Shoe from "./components/Shoe";
 import ShoeDetail from "./components/ShoeDetail";
 import ReviewsSectn from "./components/ReviewsSectn";
 import SignUp from "./components/SignUp";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <OfferSectn />
       <ReviewsSectn />
       <SignUp />
+      <Footer />
     </>
   );
 }
