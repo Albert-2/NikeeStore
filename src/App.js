@@ -7,6 +7,7 @@ import PopulPrdct from "./components/PopulPrdct";
 import Shoe from "./components/Shoe";
 import ShoeDetail from "./components/ShoeDetail";
 import ReviewsSectn from "./components/ReviewsSectn";
+import SignUp from "./components/SignUp";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Features />
       <OfferSectn />
       <ReviewsSectn />
+      <SignUp />
     </>
   );
 }
