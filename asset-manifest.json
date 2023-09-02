@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/NikeeStore/static/css/main.44994cef.css",
+    "main.js": "/NikeeStore/static/js/main.73d88057.js",
+    "static/media/offerShoes.svg": "/NikeeStore/static/media/offerShoes.b6c7ebe6f4028bb41336814b76e0a594.svg",
+    "static/media/user2.svg": "/NikeeStore/static/media/user2.a668464c620f9cdba3509a143e70baff.svg",
+    "static/media/main-shoe-2.png": "/NikeeStore/static/media/main-shoe-2.7e426862e4425389e36f.png",
+    "static/media/main-shoe-1.png": "/NikeeStore/static/media/main-shoe-1.245a575d35e402042ac2.png",
+    "static/media/SoloShoe.svg": "/NikeeStore/static/media/SoloShoe.7f113bc71294ef10fd2359e779b8d0b5.svg",
+    "static/media/main-shoe-3.png": "/NikeeStore/static/media/main-shoe-3.1d723d845874f2c6f410.png",
+    "static/media/shoeCard4.svg": "/NikeeStore/static/media/shoeCard4.54bea3246c838de057299689cb49f955.svg",
+    "static/media/shoeCard2.svg": "/NikeeStore/static/media/shoeCard2.7eff231634283d148619099d317fcbfc.svg",
+    "static/media/shoeCard3.svg": "/NikeeStore/static/media/shoeCard3.a86f7e6b12d633cd022f16558b492627.svg",
+    "static/media/shoeCard1.svg": "/NikeeStore/static/media/shoeCard1.3abdf15d797d9f806123096122aa5ae7.svg",
+    "static/media/user1.jpeg": "/NikeeStore/static/media/user1.1368410565a281a2b1e5.jpeg",
+    "static/media/nikeLogoBW.svg": "/NikeeStore/static/media/nikeLogoBW.3d9b92188847280769f448c62dbaa75c.svg",
+    "static/media/logo.svg": "/NikeeStore/static/media/logo.9c1592e4c453ef606f10873bbd7d8e52.svg",
+    "index.html": "/NikeeStore/index.html",
+    "static/media/arrow-right.svg": "/NikeeStore/static/media/arrow-right.4ac40fd0a02c21159b69d9d81bbedd4e.svg",
+    "main.44994cef.css.map": "/NikeeStore/static/css/main.44994cef.css.map",
+    "main.73d88057.js.map": "/NikeeStore/static/js/main.73d88057.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44994cef.css",
+    "static/js/main.73d88057.js"
+  ]
+}
