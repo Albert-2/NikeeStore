@@ -4,8 +4,8 @@ import shoe from "../assets/images/SoloShoe.svg";
 const ShoeDetail = () => {
   return (
     <>
-      <div className="flex lg:flex-row flex-col justify-center items-center border-2 border-black sm:px-16 px-4">
-        <div className="border-2 border-black flex-1 flex flex-col items-start justify-center space-y-8">
+      <div className="flex lg:flex-row flex-col justify-center items-center sm:px-16 px-4 py-10 space-y-10">
+        <div className="flex-1 flex flex-col items-start justify-center space-y-8">
           <h1 className="text-5xl font-bold leading-normal tracking-wide">
             We Provide You{" "}
             <span className="text-orange-500">Super Quality</span> Shoes
@@ -22,7 +22,7 @@ const ShoeDetail = () => {
             View details
           </button>
         </div>
-        <div className="border-2 border-black flex-1 flex items-center justify-center">
+        <div className="flex-1 flex items-center justify-center">
           <img src={shoe} alt="shoes" />
         </div>
       </div>

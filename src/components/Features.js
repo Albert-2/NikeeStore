@@ -24,7 +24,7 @@ const Features = () => {
   ];
   return (
     <>
-      <div className="border-2 border-black flex items-center justify-center flex-wrap sm:flex-row flex-col sm:px-16 px-4 py-20 gap-5">
+      <div className="flex items-center justify-center flex-wrap sm:flex-row flex-col sm:px-16 px-4 py-20 gap-5">
         {features.map((feature, index) => (
           <FeatureCard feature={feature} key={index} />
         ))}

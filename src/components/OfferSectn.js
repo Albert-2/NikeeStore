@@ -5,11 +5,11 @@ import Arrow from "../assets/images/arrow-right.svg";
 const OfferSectn = () => {
   return (
     <>
-      <div className="border-2 border-black flex items-center  flex-wrap-reverse justify-center sm:px-16 px-4 py-10 gap-10">
+      <div className=" flex items-center  flex-wrap-reverse justify-center sm:px-16 px-4 py-10 gap-10">
         <img
           src={Offer}
           alt="offer"
-          className="flex-1 m-auto border-2 border-black md:max-w-[75%]"
+          className="flex-1 m-auto  md:max-w-[75%]"
         />
         <div className="flex items-start justify-center space-y-8 flex-col flex-1 min-w-[30%]">
           <h1 className="text-5xl font-bold">
@@ -25,7 +25,7 @@ const OfferSectn = () => {
             desires, surpassing the loftiest expectations. Your journey with us
             is nothing short of exceptional.
           </p>
-          <div className="flex items-start justify-start flex-wrap gap-4 border-2 border-black">
+          <div className="flex items-start justify-start flex-wrap gap-4 ">
             <button className="bg-orange-600 p-3 text-white rounded-3xl px-5 text-lg font-semibold">
               Shop now
               <img src={Arrow} alt="arraow" className="inline-block mx-4"></img>

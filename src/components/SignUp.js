@@ -3,7 +3,7 @@ import React from "react";
 const SignUp = () => {
   return (
     <>
-      <div className="border-2 border-black flex md:flex-row flex-col items-center justify-between sm:px-16 px-4 py-16 gap-10">
+      <div className="flex md:flex-row flex-col items-center justify-between sm:px-16 px-4 py-16 gap-10">
         <h1 className="font-bold text-4xl sm:max-w-sm md:text-left text-center">
           Sign Up for <span className="text-orange-500">Updates</span> &
           Newsletter
