@@ -13,16 +13,18 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Shoe />
-      <PopulPrdct />
-      <ShoeDetail />
-      <Features />
-      <OfferSectn />
-      <ReviewsSectn />
-      <SignUp />
-      <Footer />
+      <div className="select-none">
+        <Navbar />
+        <Hero />
+        <Shoe />
+        <PopulPrdct />
+        <ShoeDetail />
+        <Features />
+        <OfferSectn />
+        <ReviewsSectn />
+        <SignUp />
+        <Footer />
+      </div>
     </>
   );
 }

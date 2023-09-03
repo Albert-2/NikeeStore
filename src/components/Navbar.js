@@ -8,8 +8,8 @@ const Navbar = () => {
   }
   return (
     <>
-      <div className="container m-auto relative px-2">
-        <div className="flex items-center justify-between py-10">
+      <div className="container m-auto relative">
+        <div className="flex items-center justify-between py-10 px-2">
           <img src={logo} alt="logo" />
           <ul className="navLinks list-none text-black md:flex hidden items-center justify-evenly flex-1 max-w-[70%] text-lg tracking-widest">
             <li>
