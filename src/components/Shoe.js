@@ -28,19 +28,19 @@ const Shoe = () => {
         </div>
         <div className="absolute left-5 -bottom-5 flex space-x-2">
           <div
-            className="border-2 border-black cursor-pointer rounded-xl"
+            className="border-2 border-black dark:border-white dark:bg-black cursor-pointer rounded-xl"
             onClick={handleClick}
           >
             <img className="w-[150px]" src={shoe1} alt="shoe1" />
           </div>
           <div
-            className="border-2 border-black cursor-pointer rounded-xl"
+            className="border-2 border-black dark:border-white dark:bg-black cursor-pointer rounded-xl"
             onClick={handleClick}
           >
             <img className="w-[150px]" src={shoe2} alt="shoe2" />
           </div>
           <div
-            className="border-2 border-black cursor-pointer rounded-xl"
+            className="border-2 border-black dark:border-white dark:bg-black cursor-pointer rounded-xl"
             onClick={handleClick}
           >
             <img className="w-[150px]" src={shoe3} alt="shoe3" />

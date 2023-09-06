@@ -5,7 +5,7 @@ import User2 from "../assets/images/users/user2.svg";
 const ReviewsSectn = () => {
   return (
     <>
-      <div className="flex justify-between flex-wrap sm:flex-row flex-col text-center gap-16 sm:px-16 px-4 py-20 bg-[#f1f5ff]">
+      <div className="flex justify-between flex-wrap sm:flex-row flex-col text-center gap-16 sm:px-16 px-4 py-20 bg-[#f1f5ff] dark:bg-black">
         <div className="flex flex-col items-center justify-center space-y-4 w-[100%] ">
           <h1 className="font-bold text-4xl break-words">
             What Our <span className="text-orange-500">Customers</span> Say?

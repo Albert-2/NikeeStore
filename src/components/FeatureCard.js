@@ -4,7 +4,7 @@ const FeatureCard = ({ feature }) => {
   return (
     <>
       <div
-        className="flex flex-col items-start justify-center flex-1 sm:min-w-[400px] space-y-6 sm:p-10 p-5 rounded-xl"
+        className="flex flex-col items-start justify-center flex-1 sm:min-w-[400px] space-y-6 sm:p-10 p-5 rounded-xl dark:border-2 "
         style={{
           boxShadow:
             "rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px",

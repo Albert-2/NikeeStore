@@ -11,7 +11,7 @@ const PopulPrdct = () => {
     <>
       <div className="py-20 sm:px-16 px-4 space-y-20 ">
         <div className="space-y-8">
-          <h1 className="text-black font-bold text-5xl tracking-wide">
+          <h1 className="font-bold text-5xl tracking-wide">
             Our <span className="text-orange-500"> Popular</span> Products
           </h1>
           <p className="text-gray-500 text-lg max-w-lg">

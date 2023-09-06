@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <div className="select-none">
+      <div className="select-none dark:bg-black dark:text-white">
         <Navbar />
         <Hero />
         <Shoe />
