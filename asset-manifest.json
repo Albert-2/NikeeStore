@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NikeeStore/static/css/main.1e8a9541.css",
-    "main.js": "/NikeeStore/static/js/main.f4e67cbd.js",
+    "main.css": "/NikeeStore/static/css/main.a1ceab56.css",
+    "main.js": "/NikeeStore/static/js/main.0aafd45c.js",
     "static/media/offerShoes.svg": "/NikeeStore/static/media/offerShoes.b6c7ebe6f4028bb41336814b76e0a594.svg",
     "static/media/heroBack.avif": "/NikeeStore/static/media/heroBack.b812cb929bc67c50831c.avif",
     "static/media/user2.svg": "/NikeeStore/static/media/user2.a668464c620f9cdba3509a143e70baff.svg",
@@ -18,11 +18,11 @@
     "static/media/logo.svg": "/NikeeStore/static/media/logo.9c1592e4c453ef606f10873bbd7d8e52.svg",
     "index.html": "/NikeeStore/index.html",
     "static/media/arrow-right.svg": "/NikeeStore/static/media/arrow-right.4ac40fd0a02c21159b69d9d81bbedd4e.svg",
-    "main.1e8a9541.css.map": "/NikeeStore/static/css/main.1e8a9541.css.map",
-    "main.f4e67cbd.js.map": "/NikeeStore/static/js/main.f4e67cbd.js.map"
+    "main.a1ceab56.css.map": "/NikeeStore/static/css/main.a1ceab56.css.map",
+    "main.0aafd45c.js.map": "/NikeeStore/static/js/main.0aafd45c.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e8a9541.css",
-    "static/js/main.f4e67cbd.js"
+    "static/css/main.a1ceab56.css",
+    "static/js/main.0aafd45c.js"
   ]
 }
