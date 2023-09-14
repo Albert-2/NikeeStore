@@ -3,13 +3,18 @@ import logo from "../assets/images/logo/logo.svg";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
-  const [mode, setMode] = useState(false);
+  const [mode, setMode] = useState(true);
   function handleClick() {
     setMenu(!menu);
   }
   function handleMode() {
     setMode(!mode);
-    document.documentElement.classList.toggle("dark");
+    localStorage.theme = "light";
+  }
+  if (mode) {
+    document.documentElement.classList.remove("dark");
+  } else {
+    document.documentElement.classList.add("dark");
   }
   return (
     <>
@@ -37,9 +42,12 @@ const Navbar = () => {
               </p>
               <button>
                 {mode ? (
-                  <i class="fa-solid fa-moon fa-xl" onClick={handleMode}></i>
+                  <i
+                    className="fa-solid fa-moon fa-xl"
+                    onClick={handleMode}
+                  ></i>
                 ) : (
-                  <i class="fa-solid fa-sun fa-xl" onClick={handleMode}></i>
+                  <i className="fa-solid fa-sun fa-xl" onClick={handleMode}></i>
                 )}
               </button>
               <button
@@ -55,7 +63,7 @@ const Navbar = () => {
             </div>
           </div>
           {menu && (
-            <div className="flex flex-col items-center justify-center space-y-5 md:hidden absolute w-full bg-white py-5">
+            <div className="flex flex-col items-center justify-center space-y-5 md:hidden absolute w-full bg-white py-5 dark:bg-black dark:text-white">
               <ul className="navLinks list-none  flex flex-col items-center justify-evenly gap-5 flex-1 max-w-[70%] text-lg tracking-widest ">
                 <li>
                   <a href="/">Home</a>
